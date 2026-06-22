@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Letöltés | AutoZone</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<div class="app" id="app">
+  <nav class="navbar" id="navbar">
+    <div class="logo">
+      <img src="../logo.svg" alt="AutoZone logo" class="logo-img">
+      AutoZone
+    </div>
+    <button type="button" class="hamburger" id="hamburger" aria-label="Menü" aria-expanded="false"><i class="fas fa-bars"></i></button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html"><i class="fas fa-home"></i> Főoldal</a></li>
+      <li><a href="bemutatkozas.html"><i class="fas fa-info-circle"></i> Bemutatkozás</a></li>
+      <li><a href="arak.html"><i class="fas fa-tags"></i> Árak</a></li>
+      <li><a href="motor.html"><i class="fas fa-motorcycle"></i> Motor</a></li>
+      <li><a href="elsosegely.html"><i class="fas fa-heartbeat"></i> Elsősegély</a></li>
+      <li><a href="jogszabalyok.html"><i class="fas fa-gavel"></i> Jogszabályok</a></li>
+      <li><a href="oktatojarmuvek.html"><i class="fas fa-car-side"></i> Oktató járművek</a></li>
+      <li><a href="otthoni-kresz-a-b.html"><i class="fas fa-laptop-house"></i> Otthoni KRESZ</a></li>
+      <li><a href="kapcsolat.html"><i class="fas fa-envelope"></i> Kapcsolat</a></li>
+    </ul>
+    <div class="nav-actions">
+      <a href="login.html" class="btn btn-outline"><i class="fas fa-sign-in-alt"></i> Belépés</a>
+      <a href="register.html" class="btn btn-primary"><i class="fas fa-user-plus"></i> Regisztráció</a>
+      <button type="button" class="theme-toggle" id="themeToggle" aria-label="Sötét vagy világos mód választás">
+        <i class="fas fa-sun"></i>
+        <i class="fas fa-moon"></i>
+        <div class="dot" id="themeDot"></div>
+      </button>
+    </div>
+    <div class="search-box">
+      <i class="fas fa-search"></i>
+      <input type="text" placeholder="Keresés..." id="searchInput">
+      <button type="button" id="searchBtn"><i class="fas fa-arrow-right"></i></button>
+    </div>
+  </nav>
+
+  <section class="hero fade-in">
+    <div class="hero-copy">
+      <h1 class="page-title"><i class="fas fa-download"></i> Letöltés</h1>
+      <p>Az AutoZone árlistáját és az oktatással kapcsolatos információkat most letöltheti.</p>
+      <div class="hero-actions">
+        <a href="autozone-aratlista.txt" class="btn btn-primary" download><i class="fas fa-file-download"></i> Árlista letöltése</a>
+        <a href="index.html" class="btn btn-outline"><i class="fas fa-home"></i> Vissza a főoldalra</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section fade-in delay-1">
+    <h2><i class="fas fa-info-circle"></i> Mi található a letöltésben?</h2>
+    <ul class="download-list">
+      <li><i class="fas fa-check-circle"></i> Aktuális árak autós és motoros tanfolyamokra</li>
+      <li><i class="fas fa-check-circle"></i> Tudnivalók a vizsgadíjakról és támogatásokról</li>
+      <li><i class="fas fa-check-circle"></i> Kapcsolati információk és ügyfélfogadás</li>
+    </ul>
+  </section>
+
+  <footer class="footer">
+    <p>© 2026 AutoZone Autós-motoros iskola Budapest | Adatkezelési tájékoztató | 06 20 332 6241</p>
+  </footer>
+</div>
+<script src="../script/script.js"></script>
+</body>
+</html>
